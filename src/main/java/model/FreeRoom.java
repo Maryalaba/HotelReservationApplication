@@ -11,3 +11,5 @@ public class FreeRoom extends Room{
         return "FreeRoom{}";
     }
 }
+
+// this is the free room
