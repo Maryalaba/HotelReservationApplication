@@ -1,7 +1,7 @@
 package api;
 
 import model.Customer;
-import model.IRoom;
+import model.gitIRoom;
 
 import java.util.Collection;
 import java.util.List;
