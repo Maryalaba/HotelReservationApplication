@@ -4,12 +4,12 @@ public class Room implements IRoom{
 
     private String roomNumber;
     private Double price;
-    private IRoom iRoom;
+    private IRoom room;
 
-    public Room(String roomNumber, Double price, IRoom iRoom) {
+    public Room(String roomNumber, Double price, IRoom room) {
         this.roomNumber = roomNumber;
         this.price = price;
-        this.iRoom = iRoom;
+        this.room = room;
     }
 
     @Override
@@ -37,7 +37,7 @@ public class Room implements IRoom{
         return "Room{" +
                 "roomNumber='" + roomNumber + '\'' +
                 ", price=" + price +
-                ", iRoom=" + iRoom +
+                ", room=" + room +
                 '}';
     }
 }
